@@ -1,10 +1,12 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { founder } from "../layout";
 
 export default function Home() {
   return (
     <div className="font-sans">
-      <main className="flex flex-col gap-[32px] row-start-2 sm:items-start">
+        <div className="flex flex-col h-screen">
+      <main className="flex flex-col gap-[32px] row-start-2 sm:items-start flex-grow">
         <Navbar />
         <div className="flex flex-col gap-8 max-w-full ml-8">
           <h1 className="text-4xl sm:text-5xl font-bold font-serif sm:text-left">
@@ -17,6 +19,8 @@ export default function Home() {
           </p>
         </div>
           </main>
+            <Footer />
+        </div>
     </div>
   );
 }
