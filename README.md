@@ -1,5 +1,5 @@
 # transformed-website-new
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a newer version of the Transformstion Place website, made with Next.js.
 
 ## Getting Started
 
