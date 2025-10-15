@@ -33,7 +33,7 @@ const Navbar = () => {
             <Link href="/contact">Contact</Link>
         </div>
         {isOpen && (
-            <div className="absolute top-16 left-0 w-full bg-foreground dark:bg-foreground shadow-md flex flex-col items-left lg:hidden z-10 space-y-4 py-4 px-8 font-sans">
+            <div className="absolute top-16 left-0 w-full bg-foreground dark:bg-foreground shadow-md flex flex-col items-left lg:hidden z-10 space-y-4 py-4 px-8 font-sans animate-fade-down animate-once animate-normal">
             <Link href="/about">About</Link>
             <Link href="/our-mission">Our Mission</Link>
             <Link href="/events">Events</Link>
