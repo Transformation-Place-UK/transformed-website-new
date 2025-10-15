@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 
 
@@ -22,10 +22,10 @@ const Navbar = () => {
 
         <div className="lg:hidden">
             <button onClick={toggleMenu} className="focus:outline-none hover:text-gray-300">
-                <Menu size={24} />
+                {isOpen ? <X size={24}/> : <Menu size={24} />}
             </button>
         </div>
-        <div className="hidden lg:flex space-x-4 font-sans hover:no-underline">
+        <div className="hidden lg:transition-none lg:flex space-x-4 font-sans hover:no-underline">
             <Link href="/about">About</Link>
             <Link href="/our-mission">Our Mission</Link>
             <Link href="/events">Events</Link>
