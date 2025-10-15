@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next";
 import { Source_Sans_3, Playfair_Display, Source_Code_Pro, Montserrat } from "next/font/google";
 import "./globals.css";
