@@ -16,7 +16,7 @@ export default function Home() {
           </p>
         </div>
           </main>
-           <Footer />
+      <Footer />
     </div>
   </div>
   );
