@@ -45,8 +45,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
+      <head>
+      <noscript>You need to enable JavaScript to run this website.</noscript>
+      </head>
       <body
         className={`${sourceSans3.variable} ${playfairDisplay.variable} ${sourceCodePro.variable} ${montserrat.variable} antialiased`}
       >
