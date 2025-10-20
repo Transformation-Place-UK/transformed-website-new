@@ -1,6 +1,11 @@
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
-import { Source_Sans_3, Playfair_Display, Source_Code_Pro, Montserrat } from "next/font/google";
+import {
+  Source_Sans_3,
+  Playfair_Display,
+  Source_Code_Pro,
+  Montserrat,
+} from "next/font/google";
 import "./globals.css";
 
 const sourceSans3 = Source_Sans_3({
@@ -33,7 +38,7 @@ export const founder = {
   title: "Founder & Lead Pastor",
   imageUrl: "",
   email: "valo1y2k@yahoo.com",
-}
+};
 
 export default function RootLayout({
   children,

@@ -1,4 +1,5 @@
 # transformed-website-new
+
 This is the GitHub repo for the Transformation Place website.
 
 ## Getting Started
@@ -6,7 +7,7 @@ This is the GitHub repo for the Transformation Place website.
 You can edit the pages by going into the `page.tsx` files in the app router (`src/app/`).<br/>
 For example to edit the about page you would edit `src/app/about/page.tsx`.
 
-Then you can run the development server to see your changes. 
+Then you can run the development server to see your changes.
 To run the dev server, use any of the following commands in your terminal depending on your package manager:
 
 ```bash
@@ -22,7 +23,9 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Technologies Used
+
 This website utilises Next.js 15 with Tailwind CSS version 4 with the Tailwind CSS Animations plugin installed. It also uses Lucide Icons for small things like menus.
+
 ## Learn More
 
 To learn more about these technologies, visit the websites below:

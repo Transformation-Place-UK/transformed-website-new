@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap#:~:text=font-family%3A%20%27Source%20Sans%203%27%3B%20font-style%3A%20italic%3B%20font-weight%3A%20900%3B,Sans%203%27%3B%20font-style%3A%20normal%3B%20font-weight%3A%20200%3B%20font-display%3A%20swap%3B');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap#:~:text=font-family%3A%20%27Source%20Sans%203%27%3B%20font-style%3A%20italic%3B%20font-weight%3A%20900%3B,Sans%203%27%3B%20font-style%3A%20normal%3B%20font-weight%3A%20200%3B%20font-display%3A%20swap%3B");
 @import "tailwindcss";
 @import "tailwindcss-animated";
 
@@ -26,5 +26,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
