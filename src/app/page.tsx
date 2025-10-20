@@ -15,8 +15,7 @@ export default function Home() {
           <p className="text-lg sm:text-xl sm:text-left">
             At Transformation Place, we are dedicated to transforming lives through the Love and Power of God.
           </p>
-          
-        </div>
+          </div>
           </main>
       <Footer />
     </div>

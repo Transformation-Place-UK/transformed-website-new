@@ -18,7 +18,6 @@ export default function Home() {
           </h1>
           <p className="text-lg sm:text-xl sm:text-left">
             Every year, we have a youth event called "Transformed". We are planning to make it public and last for mutilple days in the future.<br/>
-            Stay tuned for more information.
           </p>
         </div>
           </main>
