@@ -1,5 +1,8 @@
 # transformed-website-new
 
+>**Warning: Remember, when linking files to the `public` folder, remeber _not_ to include `public` in the link.**
+>**So if you were to link to `public/brand/facebook/facebook.svg`, remember to instead write, `/brand/facebook/facebook.svg`.**
+
 This is the GitHub repo for the Transformation Place website.
 
 ## Getting Started
@@ -24,7 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Technologies Used
 
-This website utilises Next.js 15 with Tailwind CSS version 4 with the Tailwind CSS Animations plugin installed. It also uses Lucide Icons for small things like menus.
+This website utilises Next.js 15 with Tailwind CSS version 4 with the Tailwind CSS Animations plugin installed. It also uses Lucide Icons for small things like menus, and react-spring for more animations.
 
 ## Learn More
 
@@ -35,4 +38,5 @@ To learn more about these technologies, visit the websites below:
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs) - learn about Taiwlind CSS and how to use it.
 - [Tailwind Animated Configurator](https://tailwindcss-animted.com/configurator.html) - this contains what you need to create the animation that you want and export it as Tailwind classes to use in the website.
 - [Lucide Icons](https://lucide.dev/icons) - All of the icons in the library.
-- [Simple Icons](https://simpleicons.org/) - All of the icons need for brand icons, which are not supported in Lucide Icons. Make sure to download them as svg files and upload them to the `public/brand` folder for use.
+- [Simple Icons](https://simpleicons.org/) - All of the icons need for brand icons, which are not supported in Lucide Icons. Make sure to copy the svg code and put it in a README.md file in it's own folder in `public/brand`.
+- [react-spring Docs](https://react-spring.dev/docs) - This is the docs section for react-spring, to learn how to use it.

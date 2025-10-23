@@ -33,6 +33,8 @@ export const metadata: Metadata = {
   description: "Transforming lives through the Love and Power of God",
 };
 
+// const siteUrl = "https://transformationplace.org.uk"; To use later
+
 export const founder = {
   name: "Valentine Nwaokolo",
   title: "Founder & Lead Pastor",
@@ -48,9 +50,6 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <head>
-      <noscript>You need to enable JavaScript to run this website.</noscript>
-      </head>
       <body
         className={`${sourceSans3.variable} ${playfairDisplay.variable} ${sourceCodePro.variable} ${montserrat.variable} antialiased`}
       >
