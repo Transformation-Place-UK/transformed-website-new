@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Our Mission - Transformation Place",
 };
 
-export default function Home() {
+export default function OurMission() {
   return (
     <div className="font-sans flex flex-col h-screen">
         <main className="flex flex-col gap-[32px] row-start-2 sm:items-start flex-grow">
