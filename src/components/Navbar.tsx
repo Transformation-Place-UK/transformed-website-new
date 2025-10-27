@@ -15,7 +15,7 @@ const Navbar = () => {
         y: -100,
       },
       to: {
-        y: 0,
+        y: -1
       },
       config: { friction: 46 },
     });
