@@ -1,11 +1,9 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans">
-      <div className="flex flex-col h-screen">
+    <div className="font-sans flex flex-col h-screen">
         <main className="flex flex-col gap-[32px] row-start-2 sm:items-start flex-grow">
           <Navbar />
           <div className="flex flex-col gap-8 max-w-full ml-8">
@@ -19,7 +17,6 @@ export default function Home() {
           </div>
         </main>
         <Footer />
-      </div>
     </div>
   );
 }

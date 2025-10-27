@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Mission - Transformation Place",
+  title: "Services - Transformation Place",
 };
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
           <Navbar />
           <div className="flex flex-col gap-8 max-w-full ml-8">
             <h1 className="text-4xl sm:text-5xl font-bold font-serif sm:text-left">
-              Our Mission
+              Services
             </h1>
             <p className="text-lg sm:text-xl sm:text-left"></p>
           </div>

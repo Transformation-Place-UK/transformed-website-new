@@ -3,13 +3,27 @@
 import Link from "next/link";
 import React from "react";
 import { Menu, X } from "lucide-react";
+import { animated, useSpring } from "@react-spring/web";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    api.start({
+      from: {
+        y: -100,
+      },
+      to: {
+        y: 0,
+      },
+      config: { friction: 46 },
+    });
   };
+
+  const [springs, api] = useSpring(() => ({
+    from: { y: -100 },
+  }));
 
   const menus = [
     { title: "About", path: "/about" },
@@ -43,13 +57,16 @@ const Navbar = () => {
         ))}
       </div>
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-foreground dark:bg-foreground shadow-md flex flex-col items-left lg:hidden z-10 space-y-4 py-4 px-8 font-sans animate-fade-down animate-once animate-normal">
+        <animated.div
+          style={{ ...springs }}
+          className="absolute top-16 left-0 w-full bg-foreground dark:bg-foreground shadow-md flex flex-col items-left lg:hidden z-10 space-y-4 py-4 px-8 font-sans"
+        >
           {menus.map((item, idx) => (
             <li key={idx} className="list-none">
               <Link href={item.path}>{item.title}</Link>
             </li>
           ))}
-        </div>
+        </animated.div>
       )}
     </nav>
   );
