@@ -10,28 +10,31 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <div className="font-sans flex flex-col h-screen">
-        <main className="flex flex-col gap-[32px] row-start-2 sm:items-start flex-grow">
-          <Navbar />
-          <div className="flex flex-col gap-8 max-w-full ml-8">
-            <h1 className="text-4xl sm:text-5xl font-bold font-serif sm:text-left">
-              About Us
-            </h1>
-            <p className="text-lg sm:text-xl sm:text-left">
-              We're a church situated in London, aiming to educate the youth on
-              the power and love of God. We were founded by {founder.name} in
-              2018 as Church of His Presence, East London, and services were
-              held in Park Hotel, Ilford. Despite the name, we are not related
-              to{" "}
-              <a
-                href="https://www.churchofhispresence.org.uk"
-                className="transition hover:underline"
-              >
-                Church of His Presence UK.
-              </a>
-            </p>
-          </div>
-        </main>
-        <Footer />
+      <main className="flex flex-col gap-[32px] row-start-2 sm:items-start flex-grow">
+        <Navbar />
+        <div className="flex flex-col gap-8 max-w-full ml-8">
+          <h1 className="text-4xl sm:text-5xl font-bold font-serif sm:text-left">
+            About Us
+          </h1>
+          <p className="text-lg sm:text-xl sm:text-left">
+            We're a church situated in London, aiming to educate the youth on
+            the power and love of God. We were founded by {founder.name} in 2018
+            as Church of His Presence, East London, and services were held in
+            Park Hotel, Ilford. Despite the name, we were not affliated to{" "}
+            <a
+              href="https://www.churchofhispresence.org.uk"
+              className="transition hover:underline"
+            >
+              Church of His Presence UK.
+            </a>
+          </p>
+          <p className="text-lg sm:text-xl sm:text-left">
+            Services took place every Sunday from 10am to 11:30am, at Park Hotel
+            in Ilford, until we moved to the Forest Gate Community School in 2024.
+          </p>
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 }

@@ -42,12 +42,20 @@ export const founder = {
   email: "valo1y2k@yahoo.com",
 };
 
+export const church = {
+  name: "Transformation Place",
+  address: "",
+  phone: "+44 7825 6314 53",
+  facebook: "TransformationPlaceUk",
+  youtube: "@TransformationPlaceUK",
+  email: "contact@transformationplace.org.uk",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en">
       <body

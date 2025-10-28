@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
+import { church } from "../layout";
 
 export const metadata: Metadata = {
   title: "Our Mission - Transformation Place",
@@ -18,17 +19,17 @@ export default function Contact() {
             <p className="text-lg sm:text-xl sm:text-left">
               You can reach us via email at{" "}
               <a
-                href="mailto:contact@transformationplace.org.uk"
+                href={`mailto:${church.email}`}
                 className="hover:underline"
               >
-                contact@transformationplace.org.uk
+                {church.email}
               </a>
               .
             </p>
             <p className="text-lg sm:text-xl sm:text-left">
               We also have a{" "}
               <a
-                href="https://youtube.com/@TransformationPlaceUK"
+                href={`https://youtube.com/${church.youtube}`}
                 className="hover:underline"
               >
                 YouTube channel
