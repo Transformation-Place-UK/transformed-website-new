@@ -5,7 +5,7 @@ import { church } from "@/app/layout";
 
 const Footer = () => {
   return (
-    <footer className="w-full py-4 px-8 flex items-center justify-between bg-foreground dark:bg-foreground shadow-md text-[#f4f4f4] font-sans dark:text-[#ffffff]">
+    <footer className="w-full py-4 px-8 flex items-center justify-between bg-foreground dark:bg-foreground shadow-md text-[#f4f4f4] font-sans dark:text-[#ffffff] rounded-t-md">
       <p>
         &copy; {new Date().getFullYear()} Transformation Place. All rights
         reserved.

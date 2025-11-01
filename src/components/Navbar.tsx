@@ -8,22 +8,24 @@ import { animated, useSpring } from "@react-spring/web";
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
+  const [springs, api] = useSpring(() => ({
+    from: { y: -100, opacity: 0 },
+  }));
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
     api.start({
       from: {
         y: -100,
+        opacity: 0,
       },
       to: {
-        y: -1
+        y: 0,
+        opacity: 1,
       },
-      config: { friction: 46 },
+      config: { friction: 30, tension: 200 },
     });
   };
-
-  const [springs, api] = useSpring(() => ({
-    from: { y: -100 },
-  }));
 
   const menus = [
     { title: "About", path: "/about" },
@@ -34,7 +36,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full py-4 px-8 flex items-center justify-between bg-foreground dark:bg-foreground shadow-md text-[#f4f4f4] dark:text-[#333] sticky top-0 z-20">
+    <nav className="w-full py-4 px-8 flex items-center justify-between bg-foreground dark:bg-foreground shadow-md text-[#f4f4f4] dark:text-[#333] sticky top-0 z-20 rounded-b-md">
       <div className="text-xl font-bold">
         <Link href="/" className="font-alt hover:no-underline">
           TRANSFORMATION PLACE
@@ -49,24 +51,34 @@ const Navbar = () => {
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
-      <div className="hidden lg:transition-none lg:flex space-x-4 font-sans hover:no-underline">
+      <ul className="hidden lg:transition-none lg:flex space-x-6 font-sans">
         {menus.map((item, idx) => (
           <li key={idx} className="list-none">
-            <Link href={item.path}>{item.title}</Link>
+            <Link
+              href={item.path}
+              className="hover:text-gray-300 transition-colors duration-200"
+            >
+              {item.title}
+            </Link>
           </li>
         ))}
-      </div>
+      </ul>
       {isOpen && (
-        <animated.div
+        <animated.ul
           style={{ ...springs }}
-          className="absolute top-16 left-0 w-full bg-foreground dark:bg-foreground shadow-md flex flex-col items-left lg:hidden z-10 space-y-4 py-4 px-8 font-sans"
+          className="absolute top-16 left-0 w-full bg-foreground dark:bg-foreground shadow-md flex flex-col items-left lg:hidden z-10 space-y-4 py-4 px-8 font-sans rounded-b-md"
         >
           {menus.map((item, idx) => (
             <li key={idx} className="list-none">
-              <Link href={item.path}>{item.title}</Link>
+              <Link
+                href={item.path}
+                className="hover:text-gray-300 transition-colors duration-200"
+              >
+                {item.title}
+              </Link>
             </li>
           ))}
-        </animated.div>
+        </animated.ul>
       )}
     </nav>
   );

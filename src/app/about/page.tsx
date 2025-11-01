@@ -30,7 +30,11 @@ export default function About() {
           </p>
           <p className="text-lg sm:text-xl sm:text-left">
             Services took place every Sunday from 10am to 11:30am, at Park Hotel
-            in Ilford, until we moved to the Forest Gate Community School in 2024.
+            in Ilford, until we moved to Forest Gate Community School in 2024.
+          </p>
+          <p className="text-lg sm:text-xl sm:text-left">
+            At the beginning of 2025, we rebraneded to Transformation Place and
+            moved out of Forest Gate.
           </p>
         </div>
       </main>
