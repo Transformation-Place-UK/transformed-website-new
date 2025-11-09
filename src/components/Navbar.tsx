@@ -2,8 +2,10 @@
 
 import Link from "next/link";
 import React from "react";
-import { Menu, X } from "lucide-react";
+import Hamburger from "./icons/Hamburger";
+import ExitMenu from "./icons/ExitMenu";
 import { animated, useSpring } from "@react-spring/web";
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -36,7 +38,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full py-4 px-8 flex items-center justify-between bg-foreground dark:bg-foreground shadow-md text-[#f4f4f4] dark:text-[#333] sticky top-0 z-20 rounded-b-md">
+    <nav className="w-full py-4 px-8 flex items-center justify-between bg-foreground dark:bg-foreground shadow-md text-[#f4f4f4] dark:text-[#333] sticky top-0 z-20">
       <div className="text-xl font-bold">
         <Link href="/" className="font-alt hover:no-underline">
           TRANSFORMATION PLACE
@@ -48,7 +50,7 @@ const Navbar = () => {
           onClick={toggleMenu}
           className="focus:outline-none hover:text-gray-300"
         >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
+          {isOpen ? <ExitMenu width={24} /> : <Hamburger width={24} />}
         </button>
       </div>
       <ul className="hidden lg:transition-none lg:flex space-x-6 font-sans">

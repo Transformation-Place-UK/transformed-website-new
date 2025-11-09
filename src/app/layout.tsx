@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import {
   Source_Sans_3,
@@ -33,7 +32,7 @@ export const metadata: Metadata = {
   description: "Transforming lives through the Love and Power of God",
 };
 
-// const siteUrl = "https://transformationplace.org.uk"; To use later
+// const siteUrl = "https://transformationplace.org.uk"; (to use later)
 
 export const founder = {
   name: "Valentine Nwaokolo",
@@ -49,6 +48,7 @@ export const church = {
   facebook: "TransformationPlaceUk",
   youtube: "@TransformationPlaceUK",
   email: "contact@transformationplace.org.uk",
+  charityNumber: "[remember to fill in this later]",
 };
 
 export default function RootLayout({

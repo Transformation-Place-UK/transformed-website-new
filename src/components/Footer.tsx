@@ -21,9 +21,12 @@ const Footer = () => {
           <Facebook
             width={25}
             height={25}
-            className="fill-[#f4f4f4] hover:opacity-70 inline-block ml-4"
+            className="fill-[#f4f4f4] hover:opacity-70 inline-block ml-4 "
           />
         </a>
+      </p>
+      <p className="text-[12px]">
+        Registered Charity No. {church.charityNumber}
       </p>
     </footer>
   );
