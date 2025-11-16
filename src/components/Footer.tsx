@@ -14,14 +14,14 @@ const Footer = () => {
           <YouTube
             width={25}
             height={25}
-            className="fill-[#f4f4f4] hover:opacity-70 inline-block ml-4"
+            className="fill-[#f4f4f4] transition-colors duration-200 hover:opacity-70 inline-block ml-4"
           />
         </a>
         <a href={`https://facebook.com/${church.facebook}`}>
           <Facebook
             width={25}
             height={25}
-            className="fill-[#f4f4f4] hover:opacity-70 inline-block ml-4 "
+            className="fill-[#f4f4f4] transition-colors duration-200 hover:opacity-70 inline-block ml-4 "
           />
         </a>
       </p>

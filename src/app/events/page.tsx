@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us - Transformation Place",
+  title: "Events",
 };
 
 export default function Events() {
@@ -19,6 +19,10 @@ export default function Events() {
             Every year, we have a youth event called "Transformed". We are
             planning to make it public and last for mutilple days in the future.
             <br />
+            <a href="/events/transformed" className="hover:underline">
+              Click here
+            </a>{" "}
+            to find out more about the event.
           </p>
         </div>
       </main>

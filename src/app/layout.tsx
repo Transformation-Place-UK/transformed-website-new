@@ -27,8 +27,12 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
-  title: "Transformation Place",
+  title: {
+    default: "Transformation Place",
+    template: `%s | Transformation Place`,
+  },
   description: "Transforming lives through the Love and Power of God",
 };
 
@@ -48,7 +52,7 @@ export const church = {
   facebook: "TransformationPlaceUk",
   youtube: "@TransformationPlaceUK",
   email: "contact@transformationplace.org.uk",
-  charityNumber: "[remember to fill in this later]",
+  charityNumber: "1241312 [replace later]",
 };
 
 export default function RootLayout({

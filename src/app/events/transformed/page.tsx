@@ -1,21 +1,19 @@
-import Navbar from "@/components/Navbar";
+import TransformedNavbar from "@/components/TransformedNavbar";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
+import { TransformedAnimatedHeader } from "@/components/TransformedAnimatedHeader";
 
 export const metadata: Metadata = {
-  title: "Our Mission",
+  title: "Transformed | Events",
 };
 
-export default function OurMission() {
+export default function Events() {
   return (
     <div className="font-sans flex flex-col h-screen">
       <main className="flex flex-col gap-[32px] row-start-2 sm:items-start flex-grow">
-        <Navbar />
+        <TransformedNavbar />
         <div className="flex flex-col gap-8 max-w-full ml-8">
-          <h1 className="text-4xl sm:text-5xl font-bold font-serif sm:text-left">
-            Our Mission
-          </h1>
-          <p className="text-lg sm:text-xl sm:text-left">Our mission is</p>
+          <TransformedAnimatedHeader title="Transformed" subtitle="Teaching the next generation on God's Word." />
         </div>
       </main>
       <Footer />

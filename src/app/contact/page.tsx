@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { church } from "../layout";
 
 export const metadata: Metadata = {
-  title: "Our Mission - Transformation Place",
+  title: "Contact Us",
 };
 
 export default function Contact() {

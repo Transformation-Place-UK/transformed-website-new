@@ -35,7 +35,7 @@ To learn more about these technologies, visit the websites below:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs) - learn about Tailwind CSS and how to use it.
-- [Simple Icons](https://simpleicons.org/) - All of the icons need for brand icons, which are not supported in Lucide Icons. Make sure to copy the svg code and use it as a component in `src/app/components/icons`.
+- [Simple Icons](https://simpleicons.org/) - All of the icons need for brands.  Make sure to copy the svg code and use it as a component in `src/app/components/icons`.
 - [react-spring Documentation](https://react-spring.dev/docs) - This is the docs section for react-spring, to learn how to use it.
 - [react-spring Visualiser](https://react-spring-visualizer.com/) - This is a visualiser for react-spring, helpful for settings in your animation.
 - [Headless UI Documentation](https://headlessui.com/react/menu) - This is the docs section for Headless UI, to create the components needed.
