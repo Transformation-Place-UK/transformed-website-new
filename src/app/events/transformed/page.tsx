@@ -14,7 +14,7 @@ export default function Events() {
         <TransformedNavbar />
         <div className="flex flex-col gap-8 max-w-full ml-8">
           <TransformedAnimatedHeader title="Transformed" subtitle="Teaching the next generation on God's Word." />
-        </div>
+          </div>
       </main>
       <Footer />
     </div>
