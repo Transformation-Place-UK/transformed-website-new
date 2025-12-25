@@ -21,9 +21,10 @@ export default function Services() {
             public.
           </p>
           <p className="text-lg sm:text-xl sm:text-left">
-            To get updated regularly check out our{" "}
-            <a href={`youtube.com/${church.youtube}`}>YouTube</a> and{" "}
-            <a href={`facebook.com/${church.facebook}`}>Facebook</a> accounts.
+            To get updated, regularly check out our{" "}
+            <a href={`https://youtube.com/${church.youtube}`}>YouTube</a> and{" "}
+            <a href={`https://facebook.com/${church.facebook}`}>Facebook</a>{" "}
+            accounts.
           </p>
         </div>
       </main>

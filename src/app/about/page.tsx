@@ -17,6 +17,7 @@ export default function About() {
             About Us
           </h1>
           <p className="text-lg sm:text-xl sm:text-left">
+            While Transformation Place has only been here for a year, we've been doing the church business way before then.
             We're a church situated in London, aiming to educate the youth on
             the power and love of God. We were founded by {founder.name} in 2018
             as Church of His Presence, East London, and services were held in

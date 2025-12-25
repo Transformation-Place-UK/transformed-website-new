@@ -38,7 +38,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full py-4 px-8 flex items-center justify-between bg-foreground dark:bg-foreground shadow-md text-[#f4f4f4] dark:text-[#333] sticky top-0 z-20">
+    <nav className="w-full py-4 px-8 flex items-center justify-between bg-foreground dark:bg-background shadow-md text-[#f4f4f4] dark:text-foreground dark:outline-2 outline-[#808080] sticky top-0 z-20">
       <div className="text-xl font-bold">
         <Link href="/" className="font-alt hover:no-underline">
           TRANSFORMATION PLACE
