@@ -26,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Technologies Used
 
-This website utilises Next.js 16 with Tailwind CSS version 4, using react-spring for more animations and Headless UI to help with components.
+This website utilises Next.js 16 with Tailwind CSS version 4, using framer-motion for more animations and Headless UI to help with components.
 
 ## Learn More
 
@@ -36,6 +36,5 @@ To learn more about these technologies, visit the websites below:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs) - learn about Tailwind CSS and how to use it.
 - [Simple Icons](https://simpleicons.org/) - All of the brand icons needed.  Make sure to copy the svg code and use it as a component in `src/app/components/icons`.
-- [react-spring Documentation](https://react-spring.dev/docs) - This is the docs section for react-spring, to learn how to use it.
-- [react-spring Visualiser](https://react-spring-visualizer.com/) - This is a visualiser for react-spring, helpful for settings in your animation.
+- [motion.dev](https://motion.dev/docs/react) - This is the docs section for react-spring, to learn how to use it.
 - [Headless UI Documentation](https://headlessui.com/react/menu) - This is the docs section for Headless UI, to create the components needed.

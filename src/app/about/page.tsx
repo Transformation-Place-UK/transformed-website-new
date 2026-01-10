@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { founder } from "../layout";
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -17,11 +17,12 @@ export default function About() {
             About Us
           </h1>
           <p className="text-lg sm:text-xl sm:text-left">
-            While Transformation Place has only been here for a year, we've been doing the church business way before then.
-            We're a church situated in London, aiming to educate the youth on
-            the power and love of God. We were founded by {founder.name} in 2018
-            as Church of His Presence, East London, and services were held in
-            Park Hotel, Ilford. Despite the name, we were not affliated to{" "}
+            While Transformation Place has only been here for a year, we've been
+            in the church business since way before then. We're a church aiming
+            to educate the youth on the power and love of God. We were founded
+            by {founder.name} in 2017 as Church of His Presence, East London,
+            and services were held in Park Hotel, Ilford. Despite the name, we
+            were not affliated to{" "}
             <a
               href="https://www.churchofhispresence.org.uk"
               className="transition hover:underline"
@@ -36,6 +37,11 @@ export default function About() {
           <p className="text-lg sm:text-xl sm:text-left">
             At the beginning of 2025, we rebraneded to Transformation Place and
             moved out of Forest Gate.
+          </p>
+          <p className="text-lg sm:text-xl sm:text-left">
+            We are currently not holding physical services, but we're eyeing a
+            new location in [xxxx], which we hope to use at the beginning of
+            next year.
           </p>
         </div>
       </main>
