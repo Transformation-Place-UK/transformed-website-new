@@ -1,7 +1,4 @@
 # transformed-website-new
-
-> **Warning: Remember, when linking files to the `public` folder, remeber _not_ to include `public` in the link. So if you were to link to `public/brand/facebook/facebook.svg`, remember to instead write, `/brand/facebook/facebook.svg`.**
-
 This is the GitHub repo for the Transformation Place website.
 
 ## Getting Started
