@@ -3,7 +3,7 @@ import {
   Source_Sans_3,
   Playfair_Display,
   Source_Code_Pro,
-  Montserrat,
+  Lato,
 } from "next/font/google";
 import "./globals.css";
 
@@ -22,8 +22,9 @@ const sourceCodePro = Source_Code_Pro({
   subsets: ["latin"],
 });
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+const lato = Lato({
+  variable: "--font-lato",
+  weight: ["400", "700"],
   subsets: ["latin"],
 });
 
@@ -63,7 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sourceSans3.variable} ${playfairDisplay.variable} ${sourceCodePro.variable} ${montserrat.variable} antialiased`}
+        className={`${sourceSans3.variable} ${playfairDisplay.variable} ${sourceCodePro.variable} ${lato.variable} antialiased`}
       >
         {children}
       </body>

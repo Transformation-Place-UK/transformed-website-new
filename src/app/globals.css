@@ -3,7 +3,7 @@
 
 :root {
   --background: #f4f4f4;
-  --foreground: #333;
+  --foreground: #000000;
 }
 
 @theme inline {
@@ -12,12 +12,12 @@
   --font-sans: var(--font-source-sans);
   --font-serif: var(--font-playfair-display);
   --font-mono: var(--font-source-code-pro);
-  --font-alt: var(--font-montserrat);
+  --font-alt: var(--lato);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #333;
+    --background: #000000;
     --foreground: #f4f4f4;
   }
 }
