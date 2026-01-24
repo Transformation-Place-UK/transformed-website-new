@@ -32,6 +32,5 @@ To learn more about these technologies, visit the websites below:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs) - learn about Tailwind CSS and how to use it.
-- [Simple Icons](https://simpleicons.org/) - All of the brand icons needed.  Make sure to copy the svg code and use it as a component in `src/app/components/icons`.
-- [motion.dev](https://motion.dev/docs/react) - This is the docs section for react-spring, to learn how to use it.
+- [Simple Icons](https://simpleicons.org/) - All of the brand icons needed.
 - [Headless UI Documentation](https://headlessui.com/react/menu) - This is the docs section for Headless UI, to create the components needed.
