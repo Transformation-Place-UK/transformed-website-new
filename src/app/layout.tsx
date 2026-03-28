@@ -24,7 +24,7 @@ const sourceCodePro = Source_Code_Pro({
 
 const lato = Lato({
   variable: "--font-lato",
-  weight: ["400", "700"],
+  weight: ["400", "700", "900"],
   subsets: ["latin"],
 });
 

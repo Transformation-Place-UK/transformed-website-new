@@ -12,7 +12,7 @@
   --font-sans: var(--font-source-sans);
   --font-serif: var(--font-playfair-display);
   --font-mono: var(--font-source-code-pro);
-  --font-alt: var(--lato);
+  --font-alt: var(--font-lato);
 }
 
 @media (prefers-color-scheme: dark) {

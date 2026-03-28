@@ -91,7 +91,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full py-4 px-8 flex items-center justify-between bg-[#ffffff] dark:bg-background text-foreground dark:text-foreground outline-1 outline-[#808080] sticky top-0 z-20">
-      <div className="text-xl font-bold">
+      <div className="text-xl font-black">
         <Link
           href="/"
           className="font-alt hover:no-underline flex text-[rgb(237,47,38)] dark:text-foreground"
@@ -109,7 +109,7 @@ const Navbar = () => {
           <li key={idx} className="list-none">
             <Link
               href={item.path}
-              className="hover:text-gray-300 transition-colors duration-200"
+              className="hover:text-gray-500 transition-colors duration-200"
             >
               {item.title}
             </Link>
