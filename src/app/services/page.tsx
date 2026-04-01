@@ -18,7 +18,11 @@ export default function Services() {
           </h1>
           <p className="text-lg sm:text-xl sm:text-left">
             Due to ongoing updates, we are currently not having services for the
-            public.
+            public.{" "}
+          </p>{" "}
+          <p className="text-lg sm:text-xl sm:text-left">
+            All services are open to the public regardless of background, and
+            are designed to improve spiritual, emotional, and social outcomes.
           </p>
           <p className="text-lg sm:text-xl sm:text-left">
             To get updated, regularly check out our{" "}
