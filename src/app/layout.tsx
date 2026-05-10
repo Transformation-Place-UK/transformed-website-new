@@ -24,10 +24,9 @@ const sourceCodePro = Source_Code_Pro({
 
 const lato = Lato({
   variable: "--font-lato",
-  weight: ["100", "300","400", "700", "900"],
+  weight: ["100", "300", "400", "700", "900"],
   subsets: ["latin"],
 });
-
 
 export const metadata: Metadata = {
   title: {
@@ -51,9 +50,9 @@ export const church = {
   address: "",
   phone: "+44 7825 6314 53",
   facebook: "TransformationPlaceUk",
-  youtube: "@TransformationPlaceUK",
+  youtube: "@channel_handle", // replace with actual YouTube channel handle
   email: "contact@transformationplace.org.uk",
-  charityNumber: "1241312 [replace later]",
+  charityNumber: <i>(replace this with charity number)</i>,
 };
 
 export default function RootLayout({
