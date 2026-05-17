@@ -1,4 +1,5 @@
 // Import global styles and fonts
+// @ts-ignore -- allow side-effect CSS import without type declarations
 import "./globals.css";
 import { Source_Sans_3 } from "next/font/google";
 import { Playfair_Display } from "next/font/google";

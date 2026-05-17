@@ -5,6 +5,7 @@ import {
   Source_Code_Pro,
   Lato,
 } from "next/font/google";
+// @ts-ignore -- allow side-effect CSS import without type declarations
 import "./globals.css";
 
 const sourceSans3 = Source_Sans_3({
