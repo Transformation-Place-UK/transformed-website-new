@@ -53,7 +53,7 @@ export const church = {
   facebook: "TransformationPlaceUk",
   youtube: "@channel_handle", // replace with actual YouTube channel handle
   email: "contact@transformationplace.org.uk",
-  charityNumber: <i>(replace this with charity number)</i>,
+  charityNumber: <a href="https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5277855/charity-overview?_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_organisationNumber=5277855">1219061</a>,
 };
 
 export default function RootLayout({
