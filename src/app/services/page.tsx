@@ -17,19 +17,19 @@ export default function Services() {
             Services
           </h1>
           <p className="text-lg sm:text-xl sm:text-left">
-            Due to ongoing updates, we are currently not having services for the
-            public.{" "}
-          </p>{" "}
+            Starting November 4th, 2026, all services will be open to the public.
+          </p>
           <p className="text-lg sm:text-xl sm:text-left">
             All services are open to the public regardless of background, and
             are designed to improve spiritual, emotional, and social outcomes.
           </p>
-          <p className="text-lg sm:text-xl sm:text-left">
-            To get updated, regularly check out our{" "}
-            <a href={`https://youtube.com/${church.youtube}`}>YouTube</a> and{" "}
-            <a href={`https://facebook.com/${church.facebook}`}>Facebook</a>{" "}
-            accounts.
-          </p>
+          <h2 className="text-2xl sm:text-3xl font-bold font-serif sm:text-left">
+            Weekly Services
+          </h2>
+          <ul className="list-disc list-inside text-lg sm:text-xl sm:text-left">
+            <li>Sunday Service: 10:00 AM - 11:30 PM</li>
+            <li>Wednesday Bible Study: 6:30 PM - 7:30 PM</li>
+          </ul>
         </div>
       </main>
       <Footer />

@@ -16,12 +16,11 @@ export default function Contact() {
           <h1 className="text-4xl sm:text-5xl font-bold font-serif sm:text-left">
             Contact
           </h1>
+          <h2 className="text-2xl sm:text-3xl font-bold sm:text-left">
+            Valentine Nwaokolo - Charity Lead
+          </h2>
           <p className="text-lg sm:text-xl sm:text-left">
-            You can reach us via email at{" "}
-            <a href={`mailto:${church.email}`} className="hover:underline">
-              {church.email}
-            </a>
-            .
+            Email: <a href={`mailto:${church.email}`}>{church.email}</a>
           </p>
         </div>
       </main>

@@ -94,7 +94,7 @@ const Navbar = () => {
       <div className="text-xl font-black">
         <Link
           href="/"
-          className="font-alt hover:no-underline flex text-[rgb(237,47,38)] dark:text-foreground"
+          className="font-alt hover:no-underline flex text-[rgb(41,54,122)] dark:text-foreground"
         >
           <TransformedLogo width={30} height={30} className="mr-2" />{" "}
           TRANSFORMATION PLACE
@@ -109,7 +109,7 @@ const Navbar = () => {
           <li key={idx} className="list-none">
             <Link
               href={item.path}
-              className="hover:text-[rgb(237,47,38)] transition-colors duration-200"
+              className="hover:text-[rgb(41,54,122)] transition-colors duration-200"
             >
               {item.title}
             </Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
             <li key={idx} className="list-none">
               <Link
                 href={item.path}
-                className="hover:text-[rgb(237,47,38)] transition-colors duration-200"
+                className="hover:text-[rgb(41,54,122)] transition-colors duration-200"
               >
                 {item.title}
               </Link>
