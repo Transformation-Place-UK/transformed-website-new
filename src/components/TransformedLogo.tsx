@@ -1,4 +1,3 @@
-
 export default function TransformedLogo({
   className,
   width,
@@ -17,7 +16,12 @@ export default function TransformedLogo({
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       xmlSpace="preserve"
-      style={{ fillRule: "evenodd", clipRule: "evenodd", strokeLinejoin: "round", strokeMiterlimit: 2 }}
+      style={{
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+      }}
       className={className}
     >
       <g transform="matrix(1,0,0,1,-4681.882568,-437.906207)">

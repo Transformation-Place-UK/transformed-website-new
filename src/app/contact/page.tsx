@@ -22,6 +22,9 @@ export default function Contact() {
           <p className="text-lg sm:text-xl sm:text-left">
             Email: <a href={`mailto:${church.email}`}>{church.email}</a>
           </p>
+          <p className="text-lg sm:text-xl sm:text-left">
+            Phone: <a href={`tel:${church.phone}`}>{church.phone}</a>
+          </p>
         </div>
       </main>
       <Footer />

@@ -49,11 +49,15 @@ export const founder = {
 export const church = {
   name: "Transformation Place",
   address: "",
-  phone: "+44 7825 6314 53",
+  phone: "+44 7719 742087",
   facebook: "TransformationPlaceUk",
-  youtube: "@channel_handle", // replace with actual YouTube channel handle
+  youtube: "", // replace with actual YouTube channel handle
   email: "contact@transformationplace.org.uk",
-  charityNumber: <a href="https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5277855/charity-overview?_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_organisationNumber=5277855">1219061</a>,
+  charityNumber: (
+    <a href="https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5277855/charity-overview?_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_organisationNumber=5277855">
+      1219061
+    </a>
+  ),
 };
 
 export default function RootLayout({
